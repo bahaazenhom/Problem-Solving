@@ -1,6 +1,6 @@
 class Pair implements Comparable<Pair> {
-    long left;
-    long right;
+   private long left;
+   private long right;
 
     public Pair(long left,long right) {
         this.left=left;
