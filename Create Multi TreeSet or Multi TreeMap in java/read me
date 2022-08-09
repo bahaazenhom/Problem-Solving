@@ -1,8 +1,8 @@
-As we know java dosn't have any packages for Multi Set or Multi Map
+As we know java doesn't have any packages for Multi Set or Multi Map
 
-==> So i descoverd a way to create multi set and multi map without importing any external packages
-but we can just implement it by TreeSet or TreeMap
-==> this way mainly based on making new comprator as an argument while creating the TreeSet/Map
-==> we will make a new comprator and make it work as the normal way except one thing..
-==> if there is any equal elements we will make him return 1 or -1
-==> in this case we are deceiving the TreeSet/Map that even if there's an equal elements then we are telling them that they are not equal, so they added it as a difference element
+==> So I discovered a way to create multi-set and multi-map without importing any external packages
+but we can implement it by TreeSet or TreeMap
+==> this way is mainly based on making a new comparator as an argument while creating the TreeSet/Map
+==> we will make a new comparator and make it work in the usual way except for one thing.
+==> if there are any equal elements we will make him return 1 or -1
+==> in this case we are deceiving the TreeSet/Map that even if there's an equal elements then we are telling them that they are not equal, so they added it as a different element
